@@ -1,0 +1,20 @@
+/* Header */
+.header{
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: #FEC63E;
+  padding: 15px 0;
+}
+
+.header_menu{
+  text-align: right;
+
+}
+
+.header_menu ul li{
+  display: inline-block;
+  margin-left: 20px;
+}
+
+/* introduction */
