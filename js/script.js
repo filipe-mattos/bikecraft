@@ -10,3 +10,7 @@ if(window.SimpleSlide){
     nav: true  // abiliata a navegação
   });
 }
+
+if(window.SimpleAnime){
+  new SimpleAnime();
+}
