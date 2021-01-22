@@ -10,6 +10,7 @@
   <link rel="stylesheet" href="css/portifolio.css">
   <link rel="stylesheet" href="css/responsivo.css">
   <title>Bikecraft Portifólio</title>
+  <script>document.documentElement.classList.add('js');</script>
 </head>
 <body>
   <header class="header">
@@ -36,26 +37,48 @@
   <!-- Fim banner homepage -->
   
   <!-- Inicio Depoimentos -->
-  <section class="container">
+  <section class="container" data-slide = "quote">
     <blockquote class="depoimento_clientes">
       <p>“não tenha nada em sua casa que você 
         não considere útil ou acredita ser bonito não tenha nada em sua casa que você 
         não considere útil ou acredita ser bonito”</p>
-        <cite>WILLIAM MORRIS</cite>
+        <cite>Barbara Moss</cite>
+      </blockquote>
+      <blockquote class="depoimento_clientes">
+        <p>O Lorem Ipsum é um texto modelo da indústria tipográfica e de impressão. 
+           O Lorem Ipsum tem vindo a ser o texto padrão usado por estas indústrias desde o ano de 1500”</p>
+          <cite>Filipe Mattos</cite>
+      </blockquote>
+      <blockquote class="depoimento_clientes">
+        <p>“O Lorem Ipsum é um texto modelo da indústria tipográfica e de impressão. 
+            O Lorem Ipsum tem vindo a ser o texto padrão usado por estas indústrias desde o ano de 1500
+            O Lorem Ipsum é um texto modelo da indústria tipográfica e de impressão.”</p>
+          <cite>Bernardo</cite>
+      </blockquote>
     </blockquote>
   </section>
   <!-- Fim Depoimentos -->
 
   <!-- Campo de portfolio na home page -->
   <section class="portfolio">
-    <div class="container">
-      <h2 class="subtitulo">Portifólio</h2>
+    <div class="container" data-slide="portifolio">
       <ul class="portfolio_lista">
         <li class="grid-8">
           <img src="img/portfolio/retro.jpg" alt="Bicicleta retrô">
         </li>
         <li class="grid-8">
           <img src="img/portfolio/passeio.jpg" alt="Bicicleta passeio">
+        </li>
+        <li class="grid-16">
+          <img src="img/portfolio/esporte.jpg" alt="Bicicleta esporte">
+        </li>
+      </ul>
+      <ul class="portfolio_lista">
+        <li class="grid-8">
+          <img src="img/portfolio/passeio.jpg" alt="Bicicleta passeio">
+        </li>
+        <li class="grid-8">
+          <img src="img/portfolio/retro.jpg" alt="Bicicleta retrô">
         </li>
         <li class="grid-16">
           <img src="img/portfolio/esporte.jpg" alt="Bicicleta esporte">
@@ -70,7 +93,6 @@
       <p>“O verdadeiro segredo da felicidade está em ter um genuíno interesse por 
           todos os detalhes da vida cotidiana.”</p>
         <cite>WILLIAM MORRIS</cite>
-    </blockquote>
   </section>
   <!-- Fim quebra page na home page -->
   <!-- Inicio footer na home page -->
@@ -115,5 +137,8 @@
     </div>
   </footer>
   <!-- Fim do footer na home page -->
+
+  <script src="./js/simple-slide.js"></script>
+  <script src="./js/script.js"></script>
 </body>
 </html>
