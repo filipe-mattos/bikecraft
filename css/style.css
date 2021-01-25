@@ -341,6 +341,18 @@ img{
   padding: 20px 0;
 }
 
+.developed a{
+  color: #000000;
+}
+
+.developed a:hover{
+  text-decoration: underline;
+}
+
+.developed a:visited{
+  color: #000000
+}
+
 .footer h3{
   font-size: 18px;
   line-height: 25px;
@@ -390,7 +402,6 @@ img{
   padding: 20px 0;
   text-align: center;
 }
- 
 /* javascript */
 
 .js [data-slide] {
